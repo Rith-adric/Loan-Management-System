@@ -1,0 +1,148 @@
+/* If you want to auto animation when hold your cursor*/
+/* You just Delete [ Hover Active ] and other one scrool Down*/
+.glow-on-hover:active {
+    color: #fff;
+    transition: 0.2s;
+    font-size: 17px;
+}
+
+/* Other one is [ hover After ] down here then save*/
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+/* You just Delete [ Hover Active ]*/
+.glow-on-hover:active {
+  color: #fff;
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+/* Other one is [ hover After ] down here then save*/
+
+.animated-edit-button {
+  margin-right: 6px;
+  display: inline-block;
+  padding: 5px 5px 5px 3px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 55px;
+  border: 2px solid rgb(97, 0, 189);
+  background-color: rgb(97, 0, 189);
+  color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animated-edit-button:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(97, 0, 189);
+}
+.animated-edit-button:active{
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* Add Payer Style  */
+.AddPayer {
+    margin: 15px;
+}
+
+/* Op Up Form */
+.Inform {
+    background-color: #fff;
+    border-radius: .25rem;
+}
+.animate-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+      font-size: 2.5rem;
+      font-weight: bold;
+      font-family: 'Popins';
+      text-align: center;
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 4s linear infinite;
+    }
+    
+    @keyframes textclip {
+     to {
+       background-position: 200% center;
+     }
+    }
+
+      /* //////////////////////////////// */
+
+    /* Styling for the animated delete button */
+    .animated-delete-button {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #e74c3c;
+        color: #fff;
+        background-color: #e74c3c;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        transition: 0.5s;
+      }
+  
+      .animated-delete-button:hover {
+        background-color: transparent;
+        text-decoration: none;
+        color: #e74c3c;
+      }
+      .animated-delete-button:active{
+        background-color: transparent;
+        border: none;
+        padding-left: 7px;
+        opacity: 0.5;
+        transition: none;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      a:hover {
+        color: rgb(97, 0, 189);
+        text-decoration: none;
+      }

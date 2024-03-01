@@ -1,0 +1,27 @@
+/* .titledasboard {
+	margin-left: 10%;
+} */
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: rgb(0 0 0 / 20%);
+	background-clip: border-box;
+	border: 0 solid transparent;
+	border-radius: .25rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 .3rem .8rem rgba(0, 0, 0, .12)
+}
+
+.list-inline-item {
+    color: aliceblue;
+}
+.title-header, tr {
+    color: #fff;
+}
+.title-hover:hover {	
+    background-color: #00000028;
+}

@@ -1,0 +1,9 @@
+.h4 {
+    width: 90px;
+    font-size: 14px;
+    margin-top: 150px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(27, 27, 151, 0.452);
+}

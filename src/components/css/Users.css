@@ -1,0 +1,112 @@
+.content-wrapper {
+    margin-left: 18%;
+}
+.align-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-hover:hover {	
+  background-color: #00000028;
+}
+a {
+  color: #ffffff;
+}
+.ButtonLink {
+  border: 2px solid #04AA6D;
+  border-radius: 10px;
+  padding: 6px 1px 31px 2px;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:81%;
+  margin-bottom: 10px;
+  transition: 0.6s;
+  }
+  .ButtonLink:hover {
+  background-color:#059862;
+  color: #059862;
+  text-decoration: none;
+  }
+.btn-back {
+  border: 2px solid #04AA6D;
+  padding: 6px 1px 26px 2px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: 0.8s;
+}
+.btn-back:hover {
+  background-color: #04AA6D;
+  font-size: 18px;
+  padding: 7px 2px 27px 3px;
+  color: white;
+  text-decoration: none;
+  }
+
+.margin {
+  margin-left: 4px;
+}
+/* 
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-height: 600px;
+  overflow-y: scroll;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table {
+  width: 800px;
+  height: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+} */
